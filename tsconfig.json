@@ -29,6 +29,9 @@
       "@nuxt/vue-app"
     ]
   },
+  "files": [
+    "shims-vue.d.ts"
+  ],
   "include": [
     "components/**/*.ts",
     "components/**/*.vue",
