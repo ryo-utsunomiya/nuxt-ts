@@ -28,5 +28,12 @@
       "@types/node",
       "@nuxt/vue-app"
     ]
-  }
+  },
+  "include": [
+    "components/**/*.ts",
+    "components/**/*.vue"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
 }
